@@ -1,0 +1,18 @@
+# Postcode Comparing
+
+## App Function
+
+- Create list of Postcodes form ranges. Works only with last letter of Postcode
+- Compares sorce list from MySQl with sorted list of postcodes and saves in file
+
+### Usage
+
+1. Extract list of postcodes from MySQL table wNireAddress
+2. Extract Postcodes from GeoRouting datbase
+3. Create postcode file that have Start and end postcode ranges without header row or country code
+4. Provide names of files in code and result file name
+
+#### Exacution
+
+- Run UkPostcodeGenerator class to sort list
+- Run PostcodeComparator class to compare sorce with RDB
